@@ -80,6 +80,9 @@ a{
 .w-100{
     width: 100%;
 }
+.list-decoration-no{
+    list-decoration: none;
+}
 
 /* Header style's */
 .header{
@@ -139,7 +142,7 @@ a{
     /* clip-path: polygon(0 5%, 5% 5%, 5% 0, 95% 0, 95% 5%, 100% 5%, 100% 95%, 95% 95%, 95% 100%, 5% 100%, 5% 95%, 0 95%); */
 }
 .banner-content-reverse{
-    clip-path: circle(80.1% at 80% 50%);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
 }
 .banner-content h1{
     color: var(--text);
@@ -190,7 +193,7 @@ a{
 .objetives-content__section ol{
     margin-left: 1rem;
 }
-.objetives-content__section ol li{
+.objetives-content__section ol li, .objetives-content__section ul li{
     margin-bottom: .5rem;
 }
 
@@ -279,7 +282,7 @@ a{
     border-right: 1px dashed #3B82B9;
     margin-right: 1rem;
 }
-.objetives-content div ol li{
+.objetives-content div ol li, .objetives-content div ul li{
     margin-bottom: 1rem;
 }
 
