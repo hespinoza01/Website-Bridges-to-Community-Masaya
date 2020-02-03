@@ -137,8 +137,9 @@ a{
     height: 100%;
     width: 100%;
     padding: 2rem;
+    padding-right: 3.5rem;
     text-align: center;
-    clip-path: circle(70.0% at 23% 51%);
+    clip-path: circle(70% at 23% 51%);
     /* clip-path: polygon(0 5%, 5% 5%, 5% 0, 95% 0, 95% 5%, 100% 5%, 100% 95%, 95% 95%, 95% 100%, 5% 100%, 5% 95%, 0 95%); */
 }
 .banner-content-reverse{
@@ -151,7 +152,7 @@ a{
     line-height: 32px;
 }
 .banner-picture{
-    width: calc(60% - 2rem);
+    width: calc(50% - 2rem);
     margin: 1rem;
     object-fit: contain;
 }
